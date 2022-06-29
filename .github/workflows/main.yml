@@ -19,11 +19,7 @@ jobs:
         python-version: 3.8
     - name: Install dependencies
       run:
-        make install
-    
-    - name: configure
-      run: ./configure
-      
+        make install      
     - name: Install dependencies
       run: make
       
