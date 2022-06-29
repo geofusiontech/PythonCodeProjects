@@ -4,6 +4,6 @@ install:
 format:
 	black *.py
 lint:
-	pylint --diable=R,C helloworld.py
+	pylint --disable=R,C helloworld.py
 test: 
 	python -m pytest -vv -cov=hello testworld-tst.py
