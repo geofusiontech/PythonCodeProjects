@@ -20,11 +20,11 @@ jobs:
     - name: Install dependencies
       run:
         make install      
-    - name: Install dependencies
-      run: make
+    - name: Lint with Lint
+      run: make lint
       
-    - name: Run check
-      run: make check
+    - name: Test with Pytest
+      run: make test
       
-    - name: Run distcheck
-      run: make distcheck
+    - name: Format code with Python
+      run: make format
