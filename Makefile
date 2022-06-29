@@ -7,6 +7,3 @@ lint:
 	pylint --diable=R,C helloworld.py
 test: 
 	python -m pytest -vv -cov=hello testworld-tst.py
-
-all:
-install lint test format
