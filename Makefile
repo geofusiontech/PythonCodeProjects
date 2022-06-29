@@ -6,4 +6,4 @@ format:
 lint:
 	pylint --disable=R,C helloworld.py
 test: 
-	python -m pytest -vv -cov=hello testworld-tst.py
+	python -m pytest -vv -cov=hello helloworld-tst.py
